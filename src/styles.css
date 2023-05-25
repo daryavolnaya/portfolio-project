@@ -1,7 +1,70 @@
-h1 {
-    font-family: Poppins;
+body {
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+    color: white;
+    font-family: Source Code Pro;
 }
 
-div {
-    font-family: Source Code Pro;
+/* navbar */
+.navbar {
+    padding: 0;
+}
+
+.logo {
+    max-width: 70px;
+}
+
+.wrap {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-box {
+    backdrop-filter: blur(9px);
+    max-width: 900px;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-box {
+    margin: 20px;
+    width: 360px;
+    height: 40px;
+}
+
+
+h2 {
+    font-family: Wix Madefor Display;
+    font-size: 50px;
+}
+
+#first-name {
+    margin-top: 25px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+/* contacts */
+
+.contact-icons {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: .7rem;
+}
+
+.fa-telegram:hover,
+.fa-github:hover,
+.fa-envelope:hover,
+.fa-telegram:focus,
+.fa-github:focus,
+.fa-envelope:focus {
+    text-shadow: 0 0 10px rgb(122, 72, 248), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(122, 72, 248), 0 0 40px rgb(122, 72, 248);
 }
