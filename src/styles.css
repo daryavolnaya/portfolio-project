@@ -52,6 +52,25 @@ h3 {
     font-size: 16px;
 }
 
+/* projects */
+
+
+
+.container-project {
+    backdrop-filter: blur(9px);
+    max-width: 90%;
+    padding: 30px;
+    margin-top: 70px;
+}
+
+.project-img {
+    max-width: 90%;
+}
+
+.max-photo {
+    max-width: 100%;
+}
+
 /* contacts */
 
 .contact-icons {
