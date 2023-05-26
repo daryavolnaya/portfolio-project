@@ -60,15 +60,25 @@ h3 {
     backdrop-filter: blur(9px);
     max-width: 90%;
     padding: 30px;
-    margin-top: 70px;
+
 }
 
 .project-img {
     max-width: 90%;
 }
 
+.project-img:hover {
+    cursor: pointer;
+}
+
 .max-photo {
     max-width: 100%;
+    position: absolute;
+
+}
+
+.project-box {
+    margin-top: 70px;
 }
 
 /* contacts */
