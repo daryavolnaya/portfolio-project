@@ -17,7 +17,7 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/4832ebc8e1.js" crossorigin="anonymous"></script>
-    <script src="src/script.js"></script>
+
 </head>
 
 <body>
@@ -48,37 +48,44 @@
         </div>
     </nav>
 
-    <div class="wrap-project">
-        <div class="container container-project">
+    <div class="body">
+        <div class="container-fluid container-project">
             <div class="row project-box">
-                <div class="col-6 m-auto">
-                    <span id="big-photo"></span>
-                    <img onclick="open_photo('images/weather-app.png')" src="images/weather-app.png" alt="Weather-app"
-                        title="Weather-app" class="project-img photo">
+                <div class="col-sm-6 m-auto">
+
+                    <img src="images/weather-app.png" alt="Weather-app" title="Weather-app" class="project-img photo">
                 </div>
-                <div class="col-6 m-auto">
+                <div class="col-sm-6 m-auto">
                     <h4>Weather app</h4>
-                    <div> HTML, CSS, JavaScript, API, Bootstrap</div>
+                    <div class="skills"> HTML, CSS, JavaScript, API, Bootstrap</div>
                     <p>
                         The Weather App is a responsive project built with HTML, CSS, and JavaScript. Leveraging an API,
                         it delivers real-time weather data for any location. The app's interface, powered by Bootstrap,
                         ensures a seamless experience across devices. </p>
+                    </br>
+
+                    <a href="https://prismatic-dango-48171b.netlify.app/" target="_blank"
+                        class="btn-box btn border d-block m-auto">Launch the app</a>
+
                 </div>
+
             </div>
             <div class="row project-box">
-                <div class="col-6 m-auto">
+                <div class="col-sm-6 m-auto">
                     <h4>Landing page</h4>
-                    <div> HTML, CSS</div>
+                    <div class="skills"> HTML, CSS</div>
                     <p>
                         This simple landing page exemplifies expertise in HTML and CSS, showcasing a minimalist design
                         and clean code. The well-structured layout achieved through HTML and the visual enhancements
                         added by CSS contribute to an appealing and user-friendly interface. </p>
+                    </br>
+
+                    <a href="https://www.shecodes.io/workshops/shecodes-basics-7a10a400-2ff5-4948-90c8-664c5c6a1cc3/projects/1563949"
+                        target="_blank" class="btn-box btn border d-block m-auto">Launch the page</a>
 
                 </div>
-                <div class="col-6 m-auto">
-                    <span id="big-photo"></span>
-                    <img onclick="open_photo('images/landing.png')" src="images/landing.png" alt="Landing page"
-                        title="Landing page" class="project-img photo">
+                <div class="col-sm-6 m-auto">
+                    <img src="images/landing.png" alt="Landing page" title="Landing page" class="project-img photo">
                 </div>
             </div>
 
@@ -86,7 +93,7 @@
     </div>
 
 
-    <div class="contact-icons">
+    <div class="contact-icons m-4 fixed-bottom">
         <a href="https://t.me/darya_volnaya" target="_blank" title="Telegram"> <i class="fa-brands fa-telegram"></i></a>
         <a href="https://github.com/daryavolnaya" target="_blank" title="GitHub"> <i
                 class="fa-brands fa-github"></i></a>

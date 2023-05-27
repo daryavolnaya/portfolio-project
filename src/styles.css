@@ -5,6 +5,10 @@ body {
     font-family: Source Code Pro;
 }
 
+.body {
+    margin-bottom: 35px;
+}
+
 /* navbar */
 .navbar {
     padding: 0;
@@ -23,7 +27,7 @@ body {
 
 .container-box {
     backdrop-filter: blur(9px);
-    max-width: 900px;
+    max-width: 90%;
     padding: 30px;
 }
 
@@ -33,9 +37,15 @@ a {
 }
 
 .btn-box {
-    margin: 20px;
-    width: 360px;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
     height: 40px;
+    color: white;
+}
+
+.border:hover {
+    text-shadow: 0 0 10px rgb(122, 72, 248), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(122, 72, 248), 0 0 40px rgb(122, 72, 248);
 }
 
 
@@ -50,31 +60,41 @@ h2 {
 
 h3 {
     font-size: 16px;
+    font-family: Wix Madefor Display;
+}
+
+/* about */
+.about {
+    max-width: 90%;
+    border-radius: 50%;
+}
+
+.matte {
+    backdrop-filter: blur(9px);
+}
+
+.certification {
+    max-width: 90%;
+    display: block;
+    margin: auto;
 }
 
 /* projects */
 
-
-
 .container-project {
     backdrop-filter: blur(9px);
-    max-width: 90%;
+    max-width: 95%;
     padding: 30px;
 
 }
 
+.skills {
+    margin-bottom: 10px;
+    letter-spacing: .2rem;
+}
+
 .project-img {
     max-width: 90%;
-}
-
-.project-img:hover {
-    cursor: pointer;
-}
-
-.max-photo {
-    max-width: 100%;
-    position: absolute;
-
 }
 
 .project-box {
@@ -87,6 +107,7 @@ h3 {
     text-align: center;
     font-size: 25px;
     letter-spacing: .7rem;
+    backdrop-filter: blur(9px);
 }
 
 .fa-telegram:hover,
