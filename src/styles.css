@@ -6,7 +6,7 @@ body {
 }
 
 .body {
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
 /* navbar */
@@ -42,6 +42,11 @@ a {
     width: 70%;
     height: 40px;
     color: white;
+}
+
+.btn {
+    color: white;
+    letter-spacing: .02rem;
 }
 
 .border:hover {
@@ -90,7 +95,7 @@ h3 {
 
 .skills {
     margin-bottom: 10px;
-    letter-spacing: .2rem;
+
 }
 
 .project-img {
@@ -106,8 +111,7 @@ h3 {
 .contact-icons {
     text-align: center;
     font-size: 25px;
-    letter-spacing: .7rem;
-    backdrop-filter: blur(9px);
+    backdrop-filter: blur(12px);
 }
 
 .fa-telegram:hover,
